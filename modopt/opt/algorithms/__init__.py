@@ -45,6 +45,7 @@ The following notation is used to implement the algorithms:
 
 """
 
+from modopt.opt.algorithms.admm import FastADMM
 from modopt.opt.algorithms.base import SetUp
 from modopt.opt.algorithms.forward_backward import (FISTA, POGM,
                                                     ForwardBackward,
